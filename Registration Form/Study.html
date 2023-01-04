@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style.css">  
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Registro Estudio</title> 
+</head>
+<body>
+    
+    <div class="container-form">
+        <header>Registro de Estudio</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Recuerda que todos los campos son obligatorios</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Nombre de Estudio</label>
+                            <input type="text" placeholder="Ingrese estudio" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Admin Principal</label>
+                            <input type="text" placeholder="Ingrese Admin" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Cédula Admin</label>
+                            <input type="number" placeholder="# Documento" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>País</label>
+                            <select required>
+                                <option disabled selected>Seleccione País</option>
+                                <option>Colombia</option>
+                                <option>Venezuela</option>
+                                <option>Ecuador</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Departamento</label>
+                            <select required>
+                                <option disabled selected>Seleccione Departamento</option>
+                                <option>Antioquia</option>
+                                <option>Medellin</option>
+                                <option>Bello</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Municipio</label>
+                            <select required>
+                                <option disabled selected>Seleccione Municipio</option>
+                                <option>Itagui</option>
+                                <option>Envigado</option>
+                                <option>Sabaneta</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Dirección Estudio</label>
+                            <input type="text" placeholder="Ingrese Admin" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Teléfono</label>
+                            <input type="number" placeholder="# Documento" required>
+                        </div>
+
+                        
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" placeholder="Enter your email" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Fecha de Ingreso</label>
+                            <input type="date" placeholder="Ingrese Fecha" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Sedes del Estudio</label>
+                            <input type="text" placeholder="Enter your email" required>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <button class="nextBtn">
+                        <span class="btnText">Next</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div> 
+                
+            </div>
+
+            <div class="form second">
+                <div class="details address">
+                    <span class="title">Address Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Address Type</label>
+                            <input type="text" placeholder="Permanent or Temporary" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Nationality</label>
+                            <input type="text" placeholder="Enter nationality" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>State</label>
+                            <input type="text" placeholder="Enter your state" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>District</label>
+                            <input type="text" placeholder="Enter your district" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Block Number</label>
+                            <input type="number" placeholder="Enter block number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Ward Number</label>
+                            <input type="number" placeholder="Enter ward number" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details family">
+                    <span class="title">Family Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Father Name</label>
+                            <input type="text" placeholder="Enter father name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mother Name</label>
+                            <input type="text" placeholder="Enter mother name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Grandfather</label>
+                            <input type="text" placeholder="Enter grandfther name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Spouse Name</label>
+                            <input type="text" placeholder="Enter spouse name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Father in Law</label>
+                            <input type="text" placeholder="Father in law name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mother in Law</label>
+                            <input type="text" placeholder="Mother in law name" required>
+                        </div>
+                    </div>
+
+                    <div class="buttons">
+                        <div class="backBtn">
+                            <i class="uil uil-navigator"></i>
+                            <span class="btnText">Back</span>
+                        </div>
+                        
+                        <button class="sumbit">
+                            <span class="btnText">Submit</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div> 
+            </div>
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
